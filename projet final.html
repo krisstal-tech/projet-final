@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timed Quiz Application</title>
+    <link rel="stylesheet" href="projet final.css">
+</head>
+<body>
+    <h1>Timed Quiz Application</h1>
+    <div class="container">
+        <label for="category">Select Category:</label>
+        <select id="category">
+            <option value="science">Science</option>
+            <option value="math">Math</option>
+        </select>
+        <button onclick="startQuiz()">Start Quiz</button>
+
+        <div id="timer"></div>
+        <div id="quiz"></div>
+        <button id="next-btn" onclick="nextQuestion()" style="display:none;">Next</button>
+        <div id="result"></div>
+    </div>
+
+<script src="projet final.js"></script>
+</body>
+</html>
